@@ -24,7 +24,7 @@ public class MyDB {
             IOException {
         System.setProperty("jdbc.drivers",
                 "org.apache.derby.jdbc.ClientDriver");
-        String url = "jdbc:derby://localhost/sun-appservsamples;create=true";
+        String url = "jdbc:derby://localhost:1527/sun-appserv-samples";
         String username = "APP";
         String password = "APP";
         return DriverManager.getConnection(url, username, password);
